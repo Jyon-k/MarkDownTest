@@ -30,6 +30,6 @@
     //exhibit the result
     scala> tmp4.show()
 
-or
+    or
     //load pre-written scala file
     scala > :load example/tpch-q1.scala
