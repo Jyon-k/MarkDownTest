@@ -32,5 +32,5 @@
 
    or
     
-    `//load pre-written scala file
-    scala > :load example/tpch-q1.scala`
+    //load pre-written scala file
+    scala > :load example/tpch-q1.scala
