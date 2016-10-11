@@ -1,8 +1,5 @@
-## Generate thrift code
-    $> thrift --gen java spark_rti.thrfit
-
 ## Build spark-rti jar
-`$> sbt package`
+    $> sbt package
 
 ## Run NextDB
     $> cd /path/to/NextDB/build/directory
