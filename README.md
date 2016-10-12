@@ -1,6 +1,8 @@
 ## Pre-requisite
 ### Install sbt
-    asdf
+You can install sbt easily by just following the link
+http://www.scala-sbt.org/0.13/docs/Manual-Installation.html
+
 
     $>
     
