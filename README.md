@@ -1,11 +1,16 @@
 ## Pre-requisite
 ### Install sbt
-You can install sbt easily by just following the link
-http://www.scala-sbt.org/0.13/docs/Manual-Installation.html
+Put sbt-launch.jar in ~/bin.
 
+Create a script to run the jar, by creating ~/bin/sbt with these contents:
 
-    $>
+    #!/bin/bash
+    SBT_OPTS="-Xms512M -Xmx1536M -Xss1M -XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=256M"
+    java $SBT_OPTS -jar `dirname $0`/sbt-launch.jar "$@"
     
+Make the script executable:
+
+    $> chmod u+x ~/bin/sbt
 
 ## Build spark-rti jar
     $> sbt package
