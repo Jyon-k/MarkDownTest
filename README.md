@@ -14,6 +14,7 @@ Make the script executable:
 
 
 ## Build spark-rti jar
+    $> cd /path/tp/spark-rti/directory
     $> sbt package
 
 
