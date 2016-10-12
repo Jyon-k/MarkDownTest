@@ -1,4 +1,4 @@
-## Pre-requisite
+## Pre-requisites
 ### Install sbt
 Put sbt-launch.jar in ~/bin.
 
@@ -12,18 +12,21 @@ Make the script executable:
 
     $> chmod u+x ~/bin/sbt
 
+
 ## Build spark-rti jar
     $> sbt package
 
-## Run NextDB
+
+## Run Spark-rti
+### Run NextDB
     $> cd /path/to/NextDB/build/directory
     $> ./next-db
 
-## Run spark-shell
+### Run spark-shell
     $> cd /path/to/spark-rti/directory
     $> spark-shell --jars target/scala-2.11/spark-rti_2.11-0.0.1-SNAPSHOT.jar
 
-## Run example
+## Example
     //import Spark-rti module
     scala> import kr.ac.snu.kdb.spark_rti._
     scala> org.apache.spark.sql.SaveMode
