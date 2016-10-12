@@ -1,3 +1,11 @@
+## Pre-requisite
+### Install sbt
+asdf
+    asdf
+
+    $>
+    
+
 ## Build spark-rti jar
     $> sbt package
 
