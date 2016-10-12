@@ -1,6 +1,5 @@
 ## Pre-requisite
 ### Install sbt
-asdf
     asdf
 
     $>
