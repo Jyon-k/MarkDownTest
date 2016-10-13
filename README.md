@@ -1,6 +1,6 @@
 ## Pre-requisites
 ### Install sbt
-Put sbt-launch.jar in ~/bin.
+Put [sbt-launch.jar] in ~/bin.
 
 Create a script to run the jar, by creating ~/bin/sbt with these contents:
 
@@ -52,3 +52,7 @@ Make the script executable:
     
     //load pre-written scala file
     scala > :load example/tpch_q1.scala
+    
+    
+    
+[sbt-launch.jar]: https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt-launch/0.13.12/sbt-launch.jar
