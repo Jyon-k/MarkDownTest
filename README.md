@@ -21,7 +21,7 @@ Make the script executable:
 ## Run Spark-rti
 ### Run NextDB
     $> cd /path/to/NextDB/build/directory
-    $> ./next-db
+    $> ./next_db
 
 ### Run spark-shell
     $> cd /path/to/spark-rti/directory
@@ -51,4 +51,4 @@ Make the script executable:
    or
     
     //load pre-written scala file
-    scala > :load example/tpch-q1.scala
+    scala > :load example/tpch_q1.scala
